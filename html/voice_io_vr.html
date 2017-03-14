@@ -1,21 +1,21 @@
 <html>
 <head>
-<script src="aframe.js"></script>
-<script src="event-set.js"></script>
-<script src="particle.js"></script>
+<script src="js/aframe.js"></script>
+<script src="js/event-set.js"></script>
+<script src="js/particle.js"></script>
 <style>
 #img2{
 position:relative;
 left:20px;
 }
 </style>
-<link href="loader1.css" rel="stylesheet" type="text/css">
+<link href="css/loader1.css" rel="stylesheet" type="text/css">
 </head>	
 <body>
 
 <a-scene id="vr">
 	<a-entity id="river" geometry="primitive: plane" material="color: blue"
-          position="-10 0 0" sound="src: url(background2.mp3); autoplay: true;loop:true"></a-entity>
+          position="-10 0 0" sound="src: url(utilities/background2.mp3); autoplay: true;loop:true"></a-entity>
 
 	<a-entity position="0 2.25 -15" particle-system="preset:snow"></a-entity>
     
@@ -36,7 +36,7 @@ left:20px;
 </body>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-<script src="loader1.js"></script>
+<script src="js/loader1.js"></script>
 
 
 <script>

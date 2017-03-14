@@ -9,9 +9,9 @@ if __name__ == '__main__':
              
              'tools.staticdir.on': True,
              'tools.staticdir.root': os.path.abspath(os.getcwd()),
-             'tools.staticdir.dir': 'D:/New Learnings/SpeechSynthesis',
+             'tools.staticdir.dir': 'images',
              
          }
              }
-cherrypy.config.update({'server.socket_port': 8085})
+cherrypy.config.update({'server.socket_port': 8080})
 cherrypy.quickstart(MyApp(),"/",conf)
